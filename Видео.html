@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Видео</title>
+    <link rel="icon" href="Картинки/Иконка сайта.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function buttonClick(str){
+            alert(str)
+        }
+    </script>
+</head>
+<body>
+    <section class="header">
+        <p id="p_title">Видео</p> 
+    </section>
+    <section class="banner">
+        <button class="service-button" onclick="window.location.href='./index.html'">Главная</button>
+        <button class="service-button" onclick="window.location.href='./Фотографии.html'">Фотографии</button>
+        <button class="service-button" onclick="window.location.href='./Портреты.html'">Портреты</button>
+        <button class="service-button" onclick="window.location.href='./Натюрморты.html'">Натюрморты</button>
+        <button class="service-button" onclick="window.location.href='./Пейзажи.html'">Пейзажи</button>
+        <button class="service-button" onclick="window.location.href='./Видео.html'">Видео</button>
+        <button class="service-button" onclick="window.location.href='./Дополнительно.html'">Дополнительно</button>
+    </section>
+    <section class="about">
+        <p id="p_new">Кот с бантом</p>
+        <video controls width="920">
+            <source src="Видео/Кот и бант.mp4" type="video/mp4">
+        </video><br>
+        <button class="click-button" onclick="buttonClick('Видео «Кот с бантом» добавлено в избранное');">Нравится</button><br><br><br>
+        
+        <p id="p_new">Весёлый пёс</p>
+        <video controls width="920">
+            <source src="Видео/Собака бежит.mp4" type="video/mp4">
+        </video><br>
+        <button class="click-button" onclick="buttonClick('Видео «Весёлый пёс» добавлено в избранное');">Нравится</button><br><br><br>
+        
+        <p id="p_new">Петушок на прогулке</p>
+        <video controls width="920">
+            <source src="Видео/Петух.mp4" type="video/mp4">
+        </video><br>
+        <button class="click-button" onclick="buttonClick('Видео «Петушок на прогулке» добавлено в избранное');">Нравится</button><br><br><br><br><br>
+        
+    </section>
+    <section class="footer">
+        <img src="Картинки/Аватарка.png" alt="Лого" align="right"/>
+        <p style="color: blue;">© Все права защищены</p>
+    </section>
+</body>
+</html>
+
